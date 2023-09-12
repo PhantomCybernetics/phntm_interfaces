@@ -4,9 +4,9 @@ uint8 MODE_AD_HOC = 2
 std_msgs/Header header
 float32 frequency 	# GHz
 string access_point	# AP ID
-uint16 bit_rate 	# MB/S
+float32 bit_rate 	# MB/s
 string essid		# Network Name
-uint8 mode		# managed or adhoc
+uint8 mode		    # Managed or ad-hoc
 uint8 quality
 uint8 quality_max
 int16 level
