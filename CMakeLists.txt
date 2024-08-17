@@ -15,7 +15,11 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IWStatus.msg"
+  "msg/DockerContainerStatus.msg"
   "msg/DockerStatus.msg"
+  "msg/DiskVolumeStatusInfo.msg"
+  "msg/CPUStatusInfo.msg"
+  "msg/SystemInfo.msg"
   DEPENDENCIES std_msgs 
 )
 
