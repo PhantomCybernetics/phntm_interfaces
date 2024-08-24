@@ -1,0 +1,9 @@
+uint8 STATUS_STOP = 0
+uint8 STATUS_RUN = 1
+uint8 STATUS_RESTART = 2
+
+string id_container
+uint8 set_state
+---
+uint8 err
+string msg
