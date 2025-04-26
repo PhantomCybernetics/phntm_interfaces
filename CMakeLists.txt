@@ -23,6 +23,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SystemInfo.msg"
   "srv/DockerCmd.srv"
   "srv/IWScanCmd.srv"
+  "srv/FileRequest.srv"
+  "msg/FileChunk.msg"
   DEPENDENCIES std_msgs 
 )
 
