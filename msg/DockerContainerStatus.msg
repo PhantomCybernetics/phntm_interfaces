@@ -7,8 +7,8 @@ string id
 string name
 uint8 status
 float32 cpu_percent
-uint32 block_io_read_bytes
-uint32 block_io_write_bytes
+uint64 block_io_read_bytes
+uint64 block_io_write_bytes
 uint16 pids
 
 # Docker on Linux does not show MEM nor NET I/O so ignoring
