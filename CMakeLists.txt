@@ -25,6 +25,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/IWScanCmd.srv"
   "srv/FileRequest.srv"
   "msg/FileChunk.msg"
+  "srv/GetFloat32.srv"
+  "srv/SetFloat32.srv"
   DEPENDENCIES std_msgs 
 )
 
