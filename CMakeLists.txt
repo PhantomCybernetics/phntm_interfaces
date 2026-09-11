@@ -17,7 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NetStatus.msg"
   "msg/WirelessScanResult.msg"
   "msg/DockerContainerStatus.msg"
-  "msg/DockerStatus.msg"
+  "msg/DockerHostContainers.msg"
   "msg/DiskVolumeStatusInfo.msg"
   "msg/CPUStatusInfo.msg"
   "msg/SystemInfo.msg"
