@@ -3,4 +3,4 @@ bool attempt_roam
 uint8 err
 string msg
 int8 res
-IWScanResult[] scan_results
+WirelessScanResult[] scan_results
